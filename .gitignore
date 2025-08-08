@@ -1,6 +1,12 @@
 # Local .terraform directories
 .terraform/
 
+# Terragrunt cache directories
+.terragrunt-cache/
+
+# Terragrunt logs
+.terragrunt-debug.tf.json
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
